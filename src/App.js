@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import * as mobilenet from "@tensorflow-models/mobilenet";
+// import { div } from '@tensorflow/tfjs-core';
+
 
 function App() {
     const [isModelLoading, setIsModelLoading] = useState(false)
@@ -65,9 +67,17 @@ function App() {
 
     return (
         <div className="App">
-            <h1 className='header'>Image Identification</h1>
+            <h1 className='header'>Pest Identification platform</h1>
+
+        <div id='showcase'>
+           <div class="section-main container">
+            <h1>welcome to Pestico</h1>
+            <h2>Upload pest images and our AI model identifies it.  </h2>
+
+            </div>
+        </div>
             <div className='inputHolder'>
-                <input type='file' accept='image/*' capture='camera' className='uploadInput' onChange={uploadImage} ref={fileInputRef} />
+                <input type='file' accept='image/*' className='uploadInput' onChange={uploadImage} ref={fileInputRef} />
                 <button className='uploadImage' onClick={triggerUpload}>Upload Image</button>
                 <span className='or'>OR</span>
                 <input type="text" placeholder='Paster image URL' ref={textInputRef} onChange={handleOnChange} />
@@ -102,6 +112,9 @@ function App() {
                     })}
                 </div>
             </div>}
+            <div className='footer'>
+                  Built with 💖 by group 4
+            </div>
         </div>
     );
 }
