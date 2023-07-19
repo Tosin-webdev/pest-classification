@@ -1,5 +1,9 @@
 # Common Pests, Symptoms, and Control Methods
 
+### Ants:
+Symptoms: Trails of ants, especially around food sources or plants. </br>
+Control: Remove food sources, use ant baits or barriers, diatomaceous earth.
+
 ### Aphids:
 
 Symptoms: Curling or yellowing leaves, honeydew secretion, stunted growth.
@@ -87,9 +91,7 @@ Control: Use traps, remove hiding places, or diatomaceous earth.
 ### Gophers:
 Symptoms: Mounds of soil, damaged roots and underground plant parts.</br>
 Control: Use traps, install barriers, or use gopher-resistant plants.
-### Ants:
-Symptoms: Trails of ants, especially around food sources or plants. </br>
-Control: Remove food sources, use ant baits or barriers, diatomaceous earth.
+
 ### Beet Armyworms:
 Symptoms: Defoliation of various plants, webbing. </br>
 Control: Handpick, use Bacillus thuringiensis (Bt), or introduce natural predators.
